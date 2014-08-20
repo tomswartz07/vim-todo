@@ -16,8 +16,7 @@ syn case ignore
 
 syn match 	inProgress 	"\[ ] .\+"
 syn match 	itemComplete 	"\[x] .\+"
-syn keyword 	location 	OFFICE SUITE
-syn match 	location 	"Room \d\+,"
+syn match 	location 	"^[A-Z,a-z]\+\(\s\d\+\)\?,"
 
 highlight def link inProgress Label
 highlight def link itemComplete Comment
