@@ -14,8 +14,8 @@ endif
 setlocal iskeyword+=:
 syn case ignore
 
-syn match 	inProgress 	"\[ ] .\+"
-syn match 	itemComplete 	"\[x] .\+"
+syn match 	inProgress 	"- \[ ] .\+"
+syn match 	itemComplete 	"- \[x] .\+"
 syn match 	location 	"^[A-Z,a-z]\+\(\s\d\+\)\?,"
 
 highlight def link inProgress Label

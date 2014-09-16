@@ -5,13 +5,13 @@ Syntax highlighting for your to-do lists.
 This syntax highlighting depends on very simple markdown-like checklists.
 
 	Location 1, Person 1
-		[ ] Item 1
-		[ ] Item 2
-		[x] Completed Item
+		- [ ] Item 1
+		- [ ] Item 2
+		- [x] Completed Item
 	Location 2, Person 2
-		[x] Completed Item
-		[ ] Item 1
-		[x] Completed Item
+		- [x] Completed Item
+		- [ ] Item 1
+		- [x] Completed Item
 
 This plugin will automatically apply the syntax highlighting to files named `*.todo`.
 

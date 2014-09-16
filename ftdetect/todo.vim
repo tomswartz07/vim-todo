@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.todo setfiletype todo
+au BufRead,BufNewFile *.todo set filetype=todo
